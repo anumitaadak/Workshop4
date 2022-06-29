@@ -17,7 +17,7 @@ public class Main1 {
 
         addressBook.list.stream().filter(contact -> contact.city != null)
                 .map(contact -> contact.city)
-                .forEach(contact -> System.out.println(contact.city));
+                .forEach(contact -> System.out.println(contact));
     }
 
 
